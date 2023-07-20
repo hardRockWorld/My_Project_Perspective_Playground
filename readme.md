@@ -13,3 +13,7 @@ After Mapping the vue instance config data properties to the vue template.
 After using string interpolation in the vue template to show the data property values in the rendering same as the scroll value.
 
 ![perspective-playground-2.png](playground-images%2Fperspective-playground-2.png)
+
+As you can see, when I scroll, the data values show as per the data mapped to the template using string interpolation
+
+![perspective-playground-3.png](playground-images%2Fperspective-playground-3.png)
