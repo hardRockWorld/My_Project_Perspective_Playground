@@ -1,3 +1,14 @@
-# This is CSS Perspective Playground
+## This is CSS Perspective Playground
 
-## It is a playground for css transform properties and it's relation with the 3D. You can play with it to understand what each transform property does to the object in the box.
+#### It is a playground for css transform properties, and it's relation with the 3D. You can play with it to understand what each transform property does to the object in the box.
+
+ Below are the screenshots of the application and which explains the vue process during it's lifecycle hooks...
+
+<i>Screenshots:</i>
+
+After Mapping the vue instance config data properties to the vue template..
+![perspective-playground-1.png](..%2F..%2F..%2FPictures%2Fperspective-playground-1.png)
+
+After using string interpolation in the vue template to show the data property values in the rendering same as the scroll value.
+
+![perspective-playground-2.png](..%2F..%2F..%2FPictures%2Fperspective-playground-2.png)
