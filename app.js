@@ -8,7 +8,16 @@ Vue.createApp({
 		}
 	},
 	computed: {
-
+		box() {
+			return {
+				transform: `
+					perspective(${this.perspective}px)
+					rotateX(${this.rotateX}deg)
+					rotateY(${this.rotateY}deg)
+					rotateZ(${this.rotateZ}deg)
+				`
+			}
+		}
 	},
 	methods: {
 

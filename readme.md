@@ -17,3 +17,7 @@ After using string interpolation in the vue template to show the data property v
 As you can see, when I scroll, the data values show as per the data mapped to the template using string interpolation
 
 ![perspective-playground-3.png](playground-images%2Fperspective-playground-3.png)
+
+Next, It's time to show the result in the right box square as per the scrolled value selected in the left settings panel.
+
+![perspective-playground-4.png](playground-images%2Fperspective-playground-4.png)
