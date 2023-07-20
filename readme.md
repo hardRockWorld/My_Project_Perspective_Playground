@@ -21,3 +21,11 @@ As you can see, when I scroll, the data values show as per the data mapped to th
 Next, It's time to show the result in the right box square as per the scrolled value selected in the left settings panel.
 
 ![perspective-playground-4.png](playground-images%2Fperspective-playground-4.png)
+
+Next Step is to enable the RESET button functionality which would use the click event vue binding resulting in running a callback called reset() written in the methods of our vue instance.
+
+![perspective-playground-5.png](playground-images%2Fperspective-playground-5.png)
+
+Look RESET button is working perfectly fine..
+
+![perspective-playground-6.gif](playground-images%2Fperspective-playground-6.gif)
