@@ -29,3 +29,13 @@ Next Step is to enable the RESET button functionality which would use the click 
 Look RESET button is working perfectly fine..
 
 ![perspective-playground-6.gif](playground-images%2Fperspective-playground-6.gif)
+
+Finally, we make the COPY button work by using the same click event binding in the vue template which invokes the copy() method in our vue instance.
+
+This copy functionality depends on a browser object called NAVIGATOR, which we would call and use it's clipboard() method to finally call the writeText() via it's API inorder to copy the contents to the browser clipboard. You can use another method called read() or readText() inorder to get the data from the browser's clipboard.
+
+![perspective-playground-7.gif](playground-images%2Fperspective-playground-7.gif)
+
+![perspective-playground-8.png](playground-images%2Fperspective-playground-8.png)
+
+Please Note: writeText() is an async method and returns a promise, therefore we need to await it.
